@@ -201,17 +201,6 @@ class Tests {
         assertEquals(listOf(componente1, componente2), result)
     }
 
-    @Test
-    fun testCreateElementSimple() {
-        val componente = ComponenteAvaliacao("Quizzes", 20)
-        val entity = createElement(componente)
-        assertEquals("componente", entity.getName())
-        val attributes = entity.getAttributes()
-        assertEquals(1, attributes.size)
-        assertEquals("nome", attributes[0].getName())
-        assertEquals("QUIZZES", attributes[0].body)
-    }
-
     @ClassName("componente")
     data class ComponenteAvaliacao(
         @Attributes

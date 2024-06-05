@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plano>
-  <curso>Mestrado em Engenharia Informática</curso>
-  <fuc codigo="M4310">
+  <curso code="M4000">
     <nome>Programação Avançada</nome>
-    <ects>6.0</ects>
-    <avaliacao>
-      <componente nome="Quizzes" peso="20"/>
-      <componente nome="Projeto" peso="80"/>
-    </avaliacao>
-  </fuc>
-  <fuc codigo="03782">
+  </curso>
+  <curso code="M4000">
+    <nome>Programação Avançada</nome>
+  </curso>
+  <curso code="M4000">
+    <nome>Programação Avançada</nome>
+  </curso>
+  <something code="M4000" some="M16" code="M4000" code="M4000" code="M4000" codigo="03782" code="M4000" codigo="03782" some="M16" some="M16" some="M16">
+    <nome>Programação Avançada</nome>
+    <nome>Programação Avançada</nome>
+    <nome>Programação Avançada</nome>
     <nome>Dissertação</nome>
-    <ects>42.0</ects>
-    <avaliacao>
-      <componente nome="Dissertação" peso="60"/>
-      <componente nome="Apresentação" peso="20"/>
-      <componente nome="Discussão" peso="20"/>
-    </avaliacao>
-  </fuc>
+  </something>
+  <something some="M16" some="M16" some="M16" some="M16"/>
+  <curso code="M4000">
+    <nome>Programação Avançada</nome>
+  </curso>
+  <something code="M4000" some="M16" code="M4000" code="M4000" code="M4000" codigo="03782" code="M4000" codigo="03782" some="M16" some="M16" some="M16">
+    <nome>Programação Avançada</nome>
+    <nome>Programação Avançada</nome>
+    <nome>Programação Avançada</nome>
+    <nome>Dissertação</nome>
+  </something>
+  <something some="M16" some="M16" some="M16" some="M16"/>
+  <curso code="M4000">
+    <nome>Programação Avançada</nome>
+  </curso>
 </plano>
