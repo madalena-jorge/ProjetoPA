@@ -42,8 +42,8 @@ class Document(private val version: Double, private val encoding: String, val ro
     /**
      * Writes the XML document to a file named "XML File.txt".
      */
-    fun writeToFile() {
-        val file = File("XML File.txt")
+    fun writeToFile(path: String) {
+        val file = File(path)
         val text = toXMLString()
         file.setWritable(true, false)
         file.writeText(text)

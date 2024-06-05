@@ -51,6 +51,6 @@ fun main() {
     document.addEntity(curso)
     document.addEntity(fuc1)
     document.addEntity(fuc2)
-    document.writeToFile()
+    document.writeToFile("XML File.txt")
     println(document.toXMLString())
 }

@@ -182,7 +182,7 @@ class Tests {
         document.addEntity(curso)
         val expectedXml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<plano>\n  <curso codigo=\"M4310\">Mestrado em Engenharia Informática</curso>\n</plano>\n"
         val file = File("tests/Test File.txt")
-        document.writeToFile()
+        document.writeToFile("tests/Test File.txt")
         val actualXML = file.readText()
         assertEquals(expectedXml, actualXML)
     }
