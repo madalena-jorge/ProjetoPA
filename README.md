@@ -196,3 +196,26 @@ val f = FUC("M4310", "Programação Avançada", 6.0, "Excelentes alunos",
 val fucEntity = createElement(f)
 println(fucEntity.toXMLString())
 ```
+
+## Internal DSL 
+```
+val xmlStructure = document(1.0, "UTF-8", "plano") {
+            entity("fuc") {
+                attribute("codigo", "M4310")
+                entity("nome", "Programação Avançada")
+                entity("ects", "6.0")
+                entity("observacoes", "la la...")
+                entity("avaliacao") {
+                    entity("componente") {
+                        attribute("nome", "Quizzes")
+                        attribute("peso", "20%")
+                    }
+                    entity("componente") {
+                        attribute("nome", "Projeto")
+                        attribute("peso", "80%")
+                    }
+                }
+            }
+        }
+println(xmlStructure.toXMLString())
+```
