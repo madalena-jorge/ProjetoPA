@@ -1,21 +1,22 @@
 # Goal of the project
 In this project, we tried to create a tool that would manage and **manipulate XML in Kotlin**, which was the language covered in class. The main classes are Document, Entity, and Attribute.
 The structure you will find in this project is as follows:
-
+```
 ProjetoPA/
-�
+¦
 +-- src/
-�   +-- Annotations.kt
-�   +-- Attribute.kt
-�   +-- Document.kt
-�   +-- DSL.kt
-�   +-- Entity.kt
-�   +-- Interfaces.kt
-�   +-- main.kt
-�   +-- Mapping.kt
+¦   +-- Annotations.kt
+¦   +-- Attribute.kt
+¦   +-- Document.kt
+¦   +-- DSL.kt
+¦   +-- Entity.kt
+¦   +-- Interfaces.kt
+¦   +-- main.kt
+¦   +-- Mapping.kt
 +-- tests/
     +-- Test File.txt
     +-- Tests.kt
+```
 
 # Some features of the project
 Over the last few weeks, we've been following a statement proposed by the teacher. 
